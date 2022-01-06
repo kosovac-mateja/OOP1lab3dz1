@@ -10,9 +10,9 @@ int main() {
 
         Korisnik k2("Mima", "grujicmima93@gmail.com");
 
-        ElektronskaPorukaSaTekstom epst(k1, k2, "ljonjacikcirik");
+        ElektronskaPorukaSaTekstom epst(k1, k2, "Testiranje programa");
 
-        epst.setTekst("VALJERI CIGANJ");
+        epst.setTekst("Test");
 
         epst.posaljiPoruku();
 
